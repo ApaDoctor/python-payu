@@ -23,7 +23,7 @@ class SignatureBuilder(object):
 
 
 class PayU(object):
-    def __init__(self, merchant, secret, lu_url='https://secure.payu.ua/order/lu.php', tokens_url='https://secure.payu.ua/order/tokens/'):
+    def __init__(self, merchant, secret, lu_url='https://secure.payu.ru/order/lu.php', tokens_url='https://secure.payu.ru/order/tokens/'):
         self.merchant = merchant
         self.secret = secret
         self.lu_url = lu_url
